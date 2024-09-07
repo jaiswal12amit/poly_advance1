@@ -1,4 +1,3 @@
-// This script batch mints criceket ERC721A tokens.
 
 // Import required libraries
 const { ethers } = require("hardhat");
