@@ -1,5 +1,5 @@
 const hre = require("hardhat");
-const tokenContractJSON = require("../artifacts/contracts/lord.sol/lord.json");
+const tokenContractJSON = require("../artifacts/contracts/amit.sol/amit.json");
 
 const tokenAddress = "0xA67B0eDfe061d9BE1207FF78FD259351d9fec1f5"; // place your erc20 contract address here
 const tokenABI = tokenContractJSON.abi;
