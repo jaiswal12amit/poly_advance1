@@ -22,7 +22,7 @@ async function main() {
   const contractAddress = "0x14F963d0089f44CE8B1D785D4F201Fa8Bda20b5c";
 
   // Get the contract factory and attach it to the signer
-  const IndianNFT = await ethers.getContractFactory("lord", signer);
+  const IndianNFT = await ethers.getContractFactory("amit", signer);
   const contract = await IndianNFT.attach(contractAddress);
 
   // Call the mint function on the contract to mint 5 tokens
