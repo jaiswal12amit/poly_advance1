@@ -16,7 +16,7 @@ async function main() {
 
   // export the addresses
   fs.writeFileSync(
-    "metadata/contractAddress.js",
+    "metadata/contractaddress.js",
     `
     export const nftAddress = "${nft.address}"
   `
